@@ -4,7 +4,7 @@
     position:relative; 
     
     .bannerContainer { 
-        padding:0; 
+        @include addPadding(0); 
     }
 
     .profPanel { 
@@ -14,7 +14,7 @@
         position: absolute;
         left:40px;
         top:70px;
-        border-radius: 8px;
+        @include roundCorners(8px);
         -moz-box-shadow: 3px 3px 3px 0px #666;    
         -webkit-box-shadow: 3px 3px 3px 0px #666;
         box-shadow: 3px 3px 3px 0px #666;

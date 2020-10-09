@@ -1,7 +1,7 @@
 // Main content
 .bodyC {
     position:relative;
-    padding:0;
+    @include addPadding(0);
     background-color:#f1f1f1;
     margin-right:-15px;
 
@@ -46,7 +46,7 @@
                 .circleI { 
                     width:30px; height:30px;
                     -moz-border-radius:50%; 
-                    border-radius:50%; 
+                    @include roundCorners(50%); 
                     background-color:#eff3f4; 
                     color:#ccc; 
                     text-align:center;
@@ -60,7 +60,9 @@
                     margin-right:0; 
                     /*padding:10px 0;*/
     
-                    a { padding:10px 0; }
+                    a { 
+                        @include addPadding(10px 0);
+                      }
 
                     .topPanel { 
                         width:100%; 
@@ -76,7 +78,7 @@
                             color:#383838; 
                         }
                         p { 
-                            padding:15px 0 0 20px;  
+                            @include addPadding(15px 0 0 20px);
                            
                             #messageBadge {
                                 position:relative; 

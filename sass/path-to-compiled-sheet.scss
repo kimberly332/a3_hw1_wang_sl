@@ -1,3 +1,7 @@
+// mixins go here
+@import 'modules/mixins';
+@import 'modules/_vars.scss';
+
 @import 'modules/_main.scss';
 @import 'modules/_side-bar.scss';
 @import 'modules/_main-head.scss';
