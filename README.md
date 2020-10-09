@@ -41,4 +41,4 @@ SOFTWARE.
 
 ## Future Plan
 
-1. This is an unfinished webpage, will be adjust some of the design part.
+* This is an unfinished webpage, will be adjust some of the design part.
