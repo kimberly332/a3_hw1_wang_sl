@@ -79,19 +79,22 @@
             <img class="img-responsive" src="images/eEdu_mainImg.jpg" alt="oil and gas banner" id="topImg">
           </div>
           <div class="profPanel panel panel-default">
-            <div class="profPanelText">
+              <div class="profPanelText"></div>
 
-              <!-- <h2 class="hidden">Prof Panel</h2> -->
+                <!-- <h2 class="hidden">Prof Panel</h2> -->
 
-              <!-- REPLACE THIS CONTENT WITH DATA PULLED IN FROM classData.js -->
-
-              <p class="text-muted"><span class="text-primary"></span></p>
-              <p></p>
-              <!-- class times go here -->
-              <ul class="list-inline"></ul>
-
-              <!-- END DYNAMIC DATA -->
-            </div>
+                <!-- REPLACE THIS CONTENT WITH DATA PULLED IN FROM classData.js -->
+                 
+                <template id="course-template">
+                  <div class="course">
+                    <p class="text-muted"><span class="text-primary"></span></p>
+                    <p>Professor - </p>
+                    <!-- class times go here -->
+                    <ul class="list-inline"></ul>
+                  </div>
+                </template>
+                <!-- END DYNAMIC DATA -->
+              
 
             <img src="images/eEdu_prof.jpg" alt="prof image" class="img-circle profileImg">
           </div>
@@ -99,10 +102,7 @@
 
         <!-- STOP HERE - YOUR SASS REBUILD IS DONE -->
 
-
-
-
-
+        
         <!-- Bottom Panel -->
         <section id="bottomPanel" class="row">
           <h2 class="hidden">Bottom Content</h2>
