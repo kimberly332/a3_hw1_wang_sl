@@ -1,6 +1,8 @@
-# Using SASS
+# Using SASS & Dynamic Content
 
 Rewrite some of the CSS for the course home page (supplied) as SASS.
+Use an object to store data that will be populated on the page in the appropriate sections. Use
+Fetch on a page load to retrieve the data and place it in a data store.
 
 ## Description
 
