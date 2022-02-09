@@ -21,7 +21,7 @@ HTML CSS SASS JS
 
 MIT License
 
-Copyright (c) 2020 Shan-Li Wang
+Copyright (c) 2022 Shan-Li Wang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
